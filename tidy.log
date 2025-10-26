@@ -29,7 +29,7 @@ Outputting GTFS feed to 'si_kranjska-gora.gtfs.zip'... done.
 Parsing GTFS feed in 'si_lpp.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-0 trips [-0.00%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-290 clusters) [-32.44%]
+Reclustering stops... done. (-285 clusters) [-32.06%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'si_lpp.gtfs.zip'... done.
@@ -43,7 +43,7 @@ Outputting GTFS feed to 'si_maribor.gtfs.zip'... done.
 Parsing GTFS feed in 'si_nap.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-7 trips [-0.04%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -8 stops [-0.08%], -0 shapes [-0.00%], -0 services [-0.00%], -93 routes [-4.03%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-3965 clusters) [-40.91%]
+Reclustering stops... done. (-3963 clusters) [-40.89%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'si_nap.gtfs.zip'... done.
@@ -64,15 +64,15 @@ Parsing GTFS feed in 'si_nap.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times 
 Parsing GTFS feed in 'si_nova-gorica.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
 Removing redundant agencies... done. (-0 agencies [-0.00%])
-Adding parent stations to all stops... done. (+3027 stations)
-Removing redundant stops... done. (-429 stops [-2.34%])
-Reclustering stops... done. (-358 clusters) [-5.30%]
+Adding parent stations to all stops... done. (+3030 stations)
+Removing redundant stops... done. (-416 stops [-2.27%])
+Reclustering stops... done. (-367 clusters) [-5.43%]
 Removing redundant routes... done. (-1 routes [-0.04%])
 Removing service duplicates... done. (-0 services [-0.00%])
-Minimizing services... done. (-2468 calendar_dates.txt entries [-91.71%], +40 calendar.txt entries [+142.85%])
-Removing redundant trips... done. (-59880 trips [-69.22%])
-Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -18985 services [-64.79%], -1 routes [-0.04%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Removing service duplicates... done. (-10222 services [-99.08%])
-Minimizing services... done. (-511 calendar_dates.txt entries [-60.83%], +17 calendar.txt entries [+22.37%])
+Minimizing services... done. (-2468 calendar_dates.txt entries [-91.64%], +40 calendar.txt entries [+142.85%])
+Removing redundant trips... done. (-63914 trips [-70.84%])
+Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -19569 services [-66.15%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
+Removing service duplicates... done. (-9922 services [-99.08%])
+Minimizing services... done. (-486 calendar_dates.txt entries [-59.93%], +14 calendar.txt entries [+18.42%])
 Encoding stop_ids via parent_station ids ... done.
 Outputting GTFS feed to 'gtfs_slovenia_clean.zip'... done.
