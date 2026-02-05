@@ -43,7 +43,7 @@ Outputting GTFS feed to 'si_maribor.gtfs.zip'... done.
 Parsing GTFS feed in 'si_nap.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing trips travelling too fast...done. (-7 trips [-0.04%])
 Removing unreferenced entries... done. (-0 trips [-0.00%], -2 stops [-0.02%], -0 shapes [-0.00%], -0 services [-0.00%], -10 routes [-0.44%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Reclustering stops... done. (-3967 clusters) [-40.95%]
+Reclustering stops... done. (-3961 clusters) [-40.89%]
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing ids... done.
 Outputting GTFS feed to 'si_nap.gtfs.zip'... done.
@@ -64,16 +64,16 @@ Parsing GTFS feed in 'si_nap.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times 
 Parsing GTFS feed in 'si_nova-gorica.gtfs.zip' ... done. (0 trips [0.00%], 0 stop times [0.00%], 0 stops [0.00%], 0 shapes [0.00%], 0 services [0.00%], 0 routes [0.00%], 0 agencies [0.00%], 0 transfers [0.00%], 0 pathways [0.00%], 0 levels [0.00%], 0 fare attributes [0.00%], 0 translations [0.00%] dropped due to errors.)
 Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -0 services [-0.00%], -0 routes [-0.00%], -0 agencies [-0.00%], -0 transfers [-0.00%])
 Removing redundant agencies... done. (-0 agencies [-0.00%])
-Adding parent stations to all stops... done. (+2948 stations)
-Removing redundant stops... done. (-402 stops [-2.22%])
-Reclustering stops... done. (-354 clusters) [-5.30%]
+Adding parent stations to all stops... done. (+2953 stations)
+Removing redundant stops... done. (-394 stops [-2.17%])
+Reclustering stops... done. (-357 clusters) [-5.34%]
 Removing redundant routes... done. (-7 routes [-0.30%])
 Removing service duplicates... done. (-0 services [-0.00%])
 Minimizing services... done. (-4690 calendar_dates.txt entries [-84.63%], +55 calendar.txt entries [+166.66%])
-Removing redundant trips... done. (-61728 trips [-67.28%])
-Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -22061 services [-69.06%], -1 routes [-0.04%], -0 agencies [-0.00%], -0 transfers [-0.00%])
-Removing service duplicates... done. (-9771 services [-98.86%])
-Minimizing services... done. (-599 calendar_dates.txt entries [-34.93%], +13 calendar.txt entries [+13.13%])
+Removing redundant trips... done. (-61729 trips [-67.28%])
+Removing unreferenced entries... done. (-0 trips [-0.00%], -0 stops [-0.00%], -0 shapes [-0.00%], -19267 services [-66.10%], -1 routes [-0.04%], -0 agencies [-0.00%], -0 transfers [-0.00%])
+Removing service duplicates... done. (-9769 services [-98.88%])
+Minimizing services... done. (-525 calendar_dates.txt entries [-32.23%], +13 calendar.txt entries [+13.40%])
 Computing stable stop ids ... done.
 Encoding stop_ids via parent_station ids ... done.
 Outputting GTFS feed to 'gtfs_slovenia_clean.zip'... done.
